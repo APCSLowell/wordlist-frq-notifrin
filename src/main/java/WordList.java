@@ -9,7 +9,7 @@ public class WordList
   public String toString() { return myList.toString(); }
 
   public int numWordsOfLength(int len){
-    int count = 0; i < wordlist.sized(); i++){
+   for (int count = 0; i < wordlist.size(); i++){
       if (wordlist.get(i).size == len){
         count++;
       }
