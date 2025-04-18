@@ -9,8 +9,9 @@ public class WordList
   public String toString() { return myList.toString(); }
 
   public int numWordsOfLength(int len){
-   for (int count = 0; i < wordlist.size(); i++){
-      if (wordlist.get(i).size() == len){
+   int count = 0;
+    for (int count = 0; i < WordList.size(); i++){
+      if (WordList.get(i).size() == len){
         count++;
       }
     }return count;
@@ -18,10 +19,10 @@ public class WordList
   }
 
   public void removeWordsOfLength(int len){
-    for (int i = wordlist.size(); i >= 0; i--){
-if (wordlist.get.(i).size() == len){
-  wordlist.remove(i);
+    for (int i = WordList.size(); i >= 0; i--){
+if (WordList.get.(i).size() == len){
+  WordList.remove(i);
 }
-      return wordlist;
+      return WordList;
     }
 }
